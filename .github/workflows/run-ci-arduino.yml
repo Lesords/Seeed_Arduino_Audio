@@ -32,7 +32,7 @@ jobs:
           # eg: echo "<path>,<fqbn>" >> ignore.list
 
       - name: Build sketch
-        run: ./ci/tools/compile.sh
+        run: ./tools/compile.sh
 
       - name: Build result
         run: |
